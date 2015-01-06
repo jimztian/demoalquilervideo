@@ -1,4 +1,4 @@
 demoalquilervideo
 =================
 
-se realizaran demos de un sistema de alquiler de videos en php y otros ejemplos
+se realizaran demos de un sistema de alquiler de videos en php y otros ejemplos.
