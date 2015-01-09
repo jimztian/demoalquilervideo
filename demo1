@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>registrar usuario</title>
+<style type="text/css">
+.asele {
+	font-size: 24px;
+	font-weight: bold;
+}
+</style>
+</head>
+
+<body bgcolor="#00CC99">
+<p class="asele">Registrar Pasos</p>
+<form action="index.php" method="get" enctype="application/x-www-form-urlencoded" name="registrar" target="_self">
+<table width="452" border="1">
+  <tr>
+    <td width="55">nombre:&nbsp;</td>
+    <td width="381"><label for="nombre"></label>
+      <input type="text" name="nombre" id="nombre" /></td>
+  </tr>
+  <tr>
+    <td>apellido</td>
+    <td><input name="apellido" type="text" />&nbsp;</td>
+  </tr>
+  <tr>
+    <td>DNI</td>
+    <td><input name="dni" type="text" />&nbsp;</td>
+  </tr>
+    <tr>
+    <td>direccion</td>
+    <td><input name="direccion" type="text" />&nbsp;</td>
+  </tr>
+    <tr>
+    <td>telefono</td>
+    <td><input name="telefono" type="text" />&nbsp;</td>
+  </tr>
+</table>
+<input name="enviar e ingresar" type="submit" value="enviar" />
+
+</form>
+</body>
+</html>
